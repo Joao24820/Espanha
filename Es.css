@@ -1,0 +1,174 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(245, 241, 241);
+}
+
+#titulo{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: hsl(0, 92%, 15%);
+}
+#pos_titulo{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 5px;
+
+}
+
+#capa{
+    height: 250px;
+    width: 220px;
+}
+span{
+    display: flex;
+    flex-direction: inherit;
+}
+
+#historia{
+    text-align: justify;
+    padding-right: 30px;
+    padding-left: 10px;
+    justify-content: left;
+    text-indent: 10px;
+}
+.his{
+    text-align: justify;
+    padding-right: 30px;
+    text-indent: 18px;
+}
+#cad{
+    font-size: 18px;
+}
+#palace{
+    padding-left: 01px;
+    padding-right: 10px;
+    padding-top: 10px;
+    height: 500px;
+    width: 1380px;
+}
+
+.img_meio{
+    height: 220px;
+    width: 250px;
+}
+
+.text_01{
+    text-align: justify;
+    padding-right: 70px;
+    padding-left: 8px;
+}
+
+
+.favi{
+    
+    width: 25px;
+    height: 25px;
+}
+
+#video{
+    padding-left: 01px;
+    padding-right: 10px;
+    padding-top: 10px;
+    height: 500px;
+    width: 1380px;
+    position: relative;
+}
+
+.food{
+
+    padding-left: 44px;
+    display: inline-block;
+    width: 295px;
+    height: 270px;
+    -webkit-transform: scale(0.97);
+    -ms-transform: scale(0.97);
+    transform: scale(0.97)
+
+}
+.too{
+
+    position: relative;
+    display:inline-block;
+    text-align: justify;  
+    width: 250px;
+    padding-left: 20px;
+    -webkit-transform: scale(0.97);
+    -ms-transform: scale(0.97);
+    transform: scale(0.97)
+  }
+
+.titulo_img{
+
+   padding-left: 30px;
+    text-align: center;
+}
+.titulo_img2{
+
+    padding-left: 50px;
+     text-align: center;
+ }
+
+.img_center{
+
+    width: 295px;
+    height: 270px;
+}
+
+.img_center:hover{
+
+    transition: all 0.5s;
+    cursor: pointer;
+    -webkit-transform: scale(1.10);
+    transform: scale(1.10);
+}
+
+#too_2{
+    position: relative;
+    display:inline-block;
+    text-align: justify;  
+    width: 250px;
+    padding-left: 40px;
+    -webkit-transform: scale(0.97);
+    -ms-transform: scale(0.97);
+    transform: scale(0.97)
+}
+
+.too_3{
+    position: relative;
+    display:inline-block;
+    text-align: justify;  
+    width: 250px;
+    padding-left: 40px;
+    -webkit-transform: scale(0.97);
+    -ms-transform: scale(0.97);
+    transform: scale(0.97)
+}
+
+#map{
+    width: 1380px;
+    height:500px ;
+    border: 0px;
+    position: relative;
+}
+
+.menu, .menu_02 .opcao{
+    color:black;
+    float: left;
+    display: flex;
+    position: relative;
+    padding-inline: 20px;
+    text-align: center; 
+    font-family: 'Times New Roman', Times, serif;   
+    font-size: 16px;
+}
+
+.efeito{
+    text-decoration: none;
+    color: black;
+}
+
+#menu_01{
+    text-align: center;
+    padding-left: 80px;
+}
